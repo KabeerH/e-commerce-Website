@@ -1,0 +1,23 @@
+.linkColor {
+    color: red;
+}
+
+.linkColor:hover {
+    font-weight: 700;
+}
+
+.techColor {
+    color: blue;
+}
+
+.techColor:hover {
+    font-weight: 600;
+}
+
+.git {
+    color: purple;
+}
+
+.git:hover {
+    font-weight: 600;
+}
