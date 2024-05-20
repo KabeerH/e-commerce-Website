@@ -1,5 +1,6 @@
 import styles from '../styles/About.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function About () {
     return ( 
@@ -15,7 +16,7 @@ export default function About () {
                          <p class='mt-12 mb-1 text-gray-600 text-lg'>In addition to my academic pursuits, I am an avid learner who constantly seeks out new challenges and opportunities for growth. My journey in web development has been marked by a deep commitment to mastering the craft, and this website is a testament to that journey. Any Feedback you provide will be the up most helpful. You can send any problems or bugs you encounter in the <Link href='/contact' className={styles.git}>Contact Page.</Link></p>
                     </div>
                     <div>
-                        <img style={{borderRadius: '10px'}} class='h-auto' src='/about.png' ></img>
+                        <img style={{borderRadius: '10px'}} class='h-auto' src='/about.png'></img>
                     </div>
                 </div>
             </div>

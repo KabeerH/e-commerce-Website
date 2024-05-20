@@ -63,9 +63,9 @@ export default function Layout({ children }) {
                         </div>
 
                         <div className="flex items-center justify-between">
-                          <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                          <Link href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
                             Forgot your password?
-                          </a>
+                          </Link>
                         </div>
 
                         <div>
@@ -79,9 +79,9 @@ export default function Layout({ children }) {
                       </form>
                       <p className="mt-2 text-center text-sm text-gray-600">
                         Don't have an account?{' '}
-                        <a href="" className="font-medium text-indigo-600 hover:text-indigo-500">
+                        <Link href="" className="font-medium text-indigo-600 hover:text-indigo-500">
                           Sign up
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
