@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import MainNav from "./MainNav";
 import Footer from './Footer';
+import Link from 'next/link';
 
 export default function Layout({ children }) {
   const [showModal, setShowModal] = useState(false);
